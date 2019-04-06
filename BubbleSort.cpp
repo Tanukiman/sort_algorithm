@@ -3,7 +3,6 @@ void swap (int *a, int *b){
     *b = *a;
     *a = tmp;
 }
-
 void BubbleSort (int* first, int* last){
     int size = last - first;
     for(int i=0; i<size; ++i){
